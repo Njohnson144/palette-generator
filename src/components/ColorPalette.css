@@ -1,0 +1,32 @@
+.color-palette-root{
+    position: relative;
+}
+
+.color-palette-root .card-container {
+    display:  flex;
+    gap: 1em;   
+    
+    width: fit-content;
+    margin: auto;
+}
+.color-palette-root .icon-container {
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+    
+    padding: 1rem;
+    
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.icon-container {
+    color: pink;
+}
+
+.color-palette-root .icon-container:hover {
+    background-color: red;
+    color: white;
+    
+    border-radius: 50%;
+}
